@@ -1,0 +1,31 @@
+{
+  "name": "wkhtmltopdf-downloader",
+  "version": "0.12.2-alpha1",
+  "binary-version": "0.12.2.1",
+  "description": "Cross-platform downloader for the wkhtmltopdf binary.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauvm/wkhtmltopdf-downloader.git"
+  },
+  "keywords": [
+    "wkhtmltopdf",
+    "download",
+    "install",
+    "cross-platform",
+    "binary"
+  ],
+  "author": "Maurits van Mastrigt <maurits@nerdieworks.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauvm/wkhtmltopdf-downloader/issues"
+  },
+  "homepage": "https://github.com/mauvm/wkhtmltopdf-downloader",
+  "dependencies": {
+    "download": "^4.0.0",
+    "linux-distro": "^2.0.0"
+  }
+}
