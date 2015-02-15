@@ -4,8 +4,8 @@ Cross-platform downloader for the [wkhtmltopdf][wkhtmltopdf] binary.
 
 ### Supported platforms
 
-- [ ] Mac OS X (32bit, Darwin)
-- [ ] Mac OS X (64bit, Darwin)
+- [x] Mac OS X (32bit, Darwin) [UNTESTED]
+- [x] Mac OS X (64bit, Darwin)
 - [ ] Windows XP or later (32bit)
 - [ ] Windows XP or later (64bit)
 - [ ] Debian Wheezy (32bit)
