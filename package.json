@@ -1,18 +1,15 @@
 {
-  "name": "wkhtmltopdf-downloader",
-  "version": "0.12.2-alpha1",
-  "binary-version": "0.12.2.1",
-  "description": "Cross-platform downloader for the wkhtmltopdf binary.",
+  "name": "wkhtmltox-binary",
+  "version": "0.1.0",
+  "description": "Cross-platform downloader for the wkhtmltox binaries.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mauvm/wkhtmltopdf-downloader.git"
+    "url": "https://github.com/mauvm/wkhtmltox-binary.git"
   },
   "keywords": [
     "wkhtmltopdf",
+    "wkhtmltoimage",
     "download",
     "install",
     "cross-platform",
@@ -21,11 +18,12 @@
   "author": "Maurits van Mastrigt <maurits@nerdieworks.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mauvm/wkhtmltopdf-downloader/issues"
+    "url": "https://github.com/mauvm/wkhtmltox-binary/issues"
   },
-  "homepage": "https://github.com/mauvm/wkhtmltopdf-downloader",
+  "homepage": "https://github.com/mauvm/wkhtmltox-binary",
   "dependencies": {
     "download": "^4.0.0",
-    "linux-distro": "^2.0.0"
+    "linux-distro": "^2.0.0",
+    "merge": "^1.2.0"
   }
 }
