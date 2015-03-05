@@ -1,6 +1,8 @@
-# wkhtmltopdf downloader
+# Wkhtmltox Binary
 
-Cross-platform downloader for the [wkhtmltox][wkhtmltox] binaries.
+> Cross-platform downloader for the [wkhtmltox][wkhtmltox] binaries.
+
+### NOTE: This is a work in progress!
 
 ## Usage
 
